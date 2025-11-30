@@ -20,6 +20,8 @@
     --spacing: 0.25rem;
     --text-xl: 1.25rem;
     --text-xl--line-height: calc(1.75 / 1.25);
+    --text-3xl: 1.875rem;
+    --text-3xl--line-height: calc(2.25 / 1.875);
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --text-5xl: 3rem;
@@ -189,56 +191,17 @@
   .m-1 {
     margin: calc(var(--spacing) * 1);
   }
-  .m-6 {
-    margin: calc(var(--spacing) * 6);
-  }
-  .mt-2 {
-    margin-top: calc(var(--spacing) * 2);
-  }
   .flex {
     display: flex;
   }
   .table {
     display: table;
   }
-  .h-0 {
-    height: calc(var(--spacing) * 0);
-  }
-  .h-6 {
-    height: calc(var(--spacing) * 6);
-  }
   .h-18 {
     height: calc(var(--spacing) * 18);
   }
-  .h-30 {
-    height: calc(var(--spacing) * 30);
-  }
-  .h-40 {
-    height: calc(var(--spacing) * 40);
-  }
-  .h-50 {
-    height: calc(var(--spacing) * 50);
-  }
-  .h-60 {
-    height: calc(var(--spacing) * 60);
-  }
   .h-63 {
     height: calc(var(--spacing) * 63);
-  }
-  .h-65 {
-    height: calc(var(--spacing) * 65);
-  }
-  .h-70 {
-    height: calc(var(--spacing) * 70);
-  }
-  .h-80 {
-    height: calc(var(--spacing) * 80);
-  }
-  .w-0 {
-    width: calc(var(--spacing) * 0);
-  }
-  .w-8 {
-    width: calc(var(--spacing) * 8);
   }
   .w-18 {
     width: calc(var(--spacing) * 18);
@@ -246,35 +209,11 @@
   .w-38 {
     width: calc(var(--spacing) * 38);
   }
-  .w-50 {
-    width: calc(var(--spacing) * 50);
-  }
-  .w-60 {
-    width: calc(var(--spacing) * 60);
-  }
   .w-80 {
     width: calc(var(--spacing) * 80);
   }
-  .w-82 {
-    width: calc(var(--spacing) * 82);
-  }
-  .w-83 {
-    width: calc(var(--spacing) * 83);
-  }
-  .w-84 {
-    width: calc(var(--spacing) * 84);
-  }
-  .w-85 {
-    width: calc(var(--spacing) * 85);
-  }
   .w-86 {
     width: calc(var(--spacing) * 86);
-  }
-  .w-87 {
-    width: calc(var(--spacing) * 87);
-  }
-  .w-90 {
-    width: calc(var(--spacing) * 90);
   }
   .w-fit {
     width: fit-content;
@@ -291,289 +230,31 @@
   .justify-center {
     justify-content: center;
   }
-  .rounded {
-    border-radius: 0.25rem;
-  }
-  .rounded-2xl {
-    border-radius: var(--radius-2xl);
-  }
-  .rounded-4xl {
-    border-radius: var(--radius-4xl);
-  }
   .rounded-full {
     border-radius: calc(infinity * 1px);
-  }
-  .rounded-xl {
-    border-radius: var(--radius-xl);
-  }
-  .rounded-t {
-    border-top-left-radius: 0.25rem;
-    border-top-right-radius: 0.25rem;
-  }
-  .rounded-tr {
-    border-top-right-radius: 0.25rem;
-  }
-  .rounded-tr-2xl {
-    border-top-right-radius: var(--radius-2xl);
   }
   .border {
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
-  .bg-\[\#0d1d53\] {
-    background-color: #0d1d53;
-  }
-  .bg-\[\#003cff\] {
-    background-color: #003cff;
-  }
-  .bg-\[\#3\] {
-    background-color: #3;
-  }
-  .bg-\[\#4e4c4c\] {
-    background-color: #4e4c4c;
-  }
-  .bg-\[\#5\] {
-    background-color: #5;
-  }
-  .bg-\[\#5a5a5a\] {
-    background-color: #5a5a5a;
-  }
-  .bg-\[\#6\] {
-    background-color: #6;
-  }
-  .bg-\[\#7\] {
-    background-color: #7;
-  }
-  .bg-\[\#8\] {
-    background-color: #8;
-  }
-  .bg-\[\#31\] {
-    background-color: #31;
-  }
-  .bg-\[\#50\] {
-    background-color: #50;
-  }
-  .bg-\[\#53\] {
-    background-color: #53;
-  }
-  .bg-\[\#69\] {
-    background-color: #69;
-  }
-  .bg-\[\#70\] {
-    background-color: #70;
-  }
-  .bg-\[\#83\] {
-    background-color: #83;
-  }
-  .bg-\[\#313\] {
-    background-color: #313;
-  }
-  .bg-\[\#504\] {
-    background-color: #504;
-  }
-  .bg-\[\#504c4\] {
-    background-color: #504c4;
-  }
-  .bg-\[\#504c4c\] {
-    background-color: #504c4c;
-  }
-  .bg-\[\#504c\] {
-    background-color: #504c;
-  }
-  .bg-\[\#535\] {
-    background-color: #535;
-  }
-  .bg-\[\#696\] {
-    background-color: #696;
-  }
-  .bg-\[\#707\] {
-    background-color: #707;
-  }
-  .bg-\[\#837\] {
-    background-color: #837;
-  }
-  .bg-\[\#837f7\] {
-    background-color: #837f7;
-  }
-  .bg-\[\#837f7f\] {
-    background-color: #837f7f;
-  }
-  .bg-\[\#837f\] {
-    background-color: #837f;
-  }
-  .bg-\[\#3130\] {
-    background-color: #3130;
-  }
-  .bg-\[\#5353\] {
-    background-color: #5353;
-  }
-  .bg-\[\#6969\] {
-    background-color: #6969;
-  }
-  .bg-\[\#7070\] {
-    background-color: #7070;
-  }
-  .bg-\[\#31303\] {
-    background-color: #31303;
-  }
-  .bg-\[\#53535\] {
-    background-color: #53535;
-  }
-  .bg-\[\#69696\] {
-    background-color: #69696;
-  }
-  .bg-\[\#70707-\] {
-    background-color: #70707-;
-  }
-  .bg-\[\#70707\] {
-    background-color: #70707;
+  .border-0 {
+    border-style: var(--tw-border-style);
+    border-width: 0px;
   }
   .bg-\[\#313030\] {
     background-color: #313030;
   }
-  .bg-\[\#535353\] {
-    background-color: #535353;
-  }
   .bg-\[\#696969\] {
     background-color: #696969;
-  }
-  .bg-\[\#707070\] {
-    background-color: #707070;
-  }
-  .bg-\[\#707077\] {
-    background-color: #707077;
-  }
-  .bg-\[\#858080\] {
-    background-color: #858080;
-  }
-  .bg-\[\#7070770\] {
-    background-color: #7070770;
-  }
-  .bg-\[\#FF9\] {
-    background-color: #FF9;
-  }
-  .bg-\[\#FF99\] {
-    background-color: #FF99;
-  }
-  .bg-\[\#FF990\] {
-    background-color: #FF990;
-  }
-  .bg-\[\#FF9900\] {
-    background-color: #FF9900;
-  }
-  .bg-\[\#FF99000\] {
-    background-color: #FF99000;
-  }
-  .bg-\[\#FF\] {
-    background-color: #FF;
-  }
-  .bg-\[\#F\] {
-    background-color: #F;
-  }
-  .bg-\[\#\] {
-    background-color: #;
-  }
-  .bg-\[\#aaa4a4\] {
-    background-color: #aaa4a4;
-  }
-  .bg-\[\#fc9d0f\] {
-    background-color: #fc9d0f;
   }
   .bg-\[\#fca31d\] {
     background-color: #fca31d;
   }
-  .bg-\[a\] {
-    background-color: a;
-  }
-  .bg-\[b\] {
-    background-color: b;
-  }
-  .bg-\[bl\] {
-    background-color: bl;
-  }
-  .bg-\[bla\] {
-    background-color: bla;
-  }
-  .bg-\[blac\] {
-    background-color: blac;
-  }
-  .bg-\[black\] {
-    background-color: black;
-  }
-  .bg-\[d\] {
-    background-color: d;
-  }
-  .bg-\[da\] {
-    background-color: da;
-  }
-  .bg-\[dar\] {
-    background-color: dar;
-  }
-  .bg-\[dark\] {
-    background-color: dark;
-  }
-  .bg-\[r\] {
-    background-color: r;
-  }
-  .bg-\[re\] {
-    background-color: re;
-  }
-  .bg-\[red\] {
-    background-color: red;
-  }
-  .bg-\[s\] {
-    background-color: s;
-  }
-  .bg-\[sl\] {
-    background-color: sl;
-  }
-  .bg-\[sla\] {
-    background-color: sla;
-  }
-  .bg-\[slat\] {
-    background-color: slat;
-  }
-  .bg-\[slate\] {
-    background-color: slate;
-  }
-  .bg-amber-200 {
-    background-color: var(--color-amber-200);
-  }
   .bg-black {
     background-color: var(--color-black);
   }
-  .bg-blue-100 {
-    background-color: var(--color-blue-100);
-  }
-  .bg-blue-300 {
-    background-color: var(--color-blue-300);
-  }
-  .bg-gray-50 {
-    background-color: var(--color-gray-50);
-  }
-  .bg-gray-400 {
-    background-color: var(--color-gray-400);
-  }
-  .bg-gray-500 {
-    background-color: var(--color-gray-500);
-  }
-  .bg-red-600 {
-    background-color: var(--color-red-600);
-  }
-  .p-1 {
-    padding: calc(var(--spacing) * 1);
-  }
-  .p-2 {
-    padding: calc(var(--spacing) * 2);
-  }
-  .p-3 {
-    padding: calc(var(--spacing) * 3);
-  }
-  .p-6 {
-    padding: calc(var(--spacing) * 6);
-  }
-  .pt-3 {
-    padding-top: calc(var(--spacing) * 3);
+  .p-4 {
+    padding: calc(var(--spacing) * 4);
   }
   .pr-1 {
     padding-right: calc(var(--spacing) * 1);
@@ -581,8 +262,11 @@
   .pr-1\.5 {
     padding-right: calc(var(--spacing) * 1.5);
   }
-  .pr-2 {
-    padding-right: calc(var(--spacing) * 2);
+  .pr-4 {
+    padding-right: calc(var(--spacing) * 4);
+  }
+  .pr-6 {
+    padding-right: calc(var(--spacing) * 6);
   }
   .pb-1 {
     padding-bottom: calc(var(--spacing) * 1);
@@ -593,20 +277,18 @@
   .pb-3 {
     padding-bottom: calc(var(--spacing) * 3);
   }
-  .pb-4 {
-    padding-bottom: calc(var(--spacing) * 4);
-  }
-  .pb-5 {
-    padding-bottom: calc(var(--spacing) * 5);
-  }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
   }
-  .pl-3 {
-    padding-left: calc(var(--spacing) * 3);
-  }
   .pl-4 {
     padding-left: calc(var(--spacing) * 4);
+  }
+  .text-right {
+    text-align: right;
+  }
+  .text-3xl {
+    font-size: var(--text-3xl);
+    line-height: var(--tw-leading, var(--text-3xl--line-height));
   }
   .text-4xl {
     font-size: var(--text-4xl);
@@ -619,14 +301,6 @@
   .text-6xl {
     font-size: var(--text-6xl);
     line-height: var(--tw-leading, var(--text-6xl--line-height));
-  }
-  .text-7xl {
-    font-size: var(--text-7xl);
-    line-height: var(--tw-leading, var(--text-7xl--line-height));
-  }
-  .text-8xl {
-    font-size: var(--text-8xl);
-    line-height: var(--tw-leading, var(--text-8xl--line-height));
   }
   .text-xl {
     font-size: var(--text-xl);
@@ -642,220 +316,15 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  .placeholder\:text-gray-400 {
+    &::placeholder {
+      color: var(--color-gray-400);
+    }
+  }
   .hover\:cursor-pointer {
     &:hover {
       @media (hover: hover) {
         cursor: pointer;
-      }
-    }
-  }
-  .hover\:bg-\[\#1\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #1;
-      }
-    }
-  }
-  .hover\:bg-\[\#3\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #3;
-      }
-    }
-  }
-  .hover\:bg-\[\#4\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #4;
-      }
-    }
-  }
-  .hover\:bg-\[\#7\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #7;
-      }
-    }
-  }
-  .hover\:bg-\[\#11\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #11;
-      }
-    }
-  }
-  .hover\:bg-\[\#31\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #31;
-      }
-    }
-  }
-  .hover\:bg-\[\#45\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #45;
-      }
-    }
-  }
-  .hover\:bg-\[\#47\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #47;
-      }
-    }
-  }
-  .hover\:bg-\[\#70\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #70;
-      }
-    }
-  }
-  .hover\:bg-\[\#111\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #111;
-      }
-    }
-  }
-  .hover\:bg-\[\#313\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313;
-      }
-    }
-  }
-  .hover\:bg-\[\#454\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #454;
-      }
-    }
-  }
-  .hover\:bg-\[\#474\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #474;
-      }
-    }
-  }
-  .hover\:bg-\[\#707\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #707;
-      }
-    }
-  }
-  .hover\:bg-\[\#1111\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #1111;
-      }
-    }
-  }
-  .hover\:bg-\[\#3130\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #3130;
-      }
-    }
-  }
-  .hover\:bg-\[\#3131\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #3131;
-      }
-    }
-  }
-  .hover\:bg-\[\#3132\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #3132;
-      }
-    }
-  }
-  .hover\:bg-\[\#4545\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #4545;
-      }
-    }
-  }
-  .hover\:bg-\[\#4745\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #4745;
-      }
-    }
-  }
-  .hover\:bg-\[\#7070\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #7070;
-      }
-    }
-  }
-  .hover\:bg-\[\#11110\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #11110;
-      }
-    }
-  }
-  .hover\:bg-\[\#31300\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #31300;
-      }
-    }
-  }
-  .hover\:bg-\[\#31303\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #31303;
-      }
-    }
-  }
-  .hover\:bg-\[\#31304\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #31304;
-      }
-    }
-  }
-  .hover\:bg-\[\#31310\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #31310;
-      }
-    }
-  }
-  .hover\:bg-\[\#31320\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #31320;
-      }
-    }
-  }
-  .hover\:bg-\[\#45454\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #45454;
-      }
-    }
-  }
-  .hover\:bg-\[\#47454\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #47454;
-      }
-    }
-  }
-  .hover\:bg-\[\#70707\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #70707;
       }
     }
   }
@@ -866,80 +335,10 @@
       }
     }
   }
-  .hover\:bg-\[\#313032\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313032;
-      }
-    }
-  }
-  .hover\:bg-\[\#313034\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313034;
-      }
-    }
-  }
-  .hover\:bg-\[\#313035\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313035;
-      }
-    }
-  }
-  .hover\:bg-\[\#313038\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313038;
-      }
-    }
-  }
-  .hover\:bg-\[\#313040\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313040;
-      }
-    }
-  }
-  .hover\:bg-\[\#313100\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313100;
-      }
-    }
-  }
-  .hover\:bg-\[\#313200\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #313200;
-      }
-    }
-  }
   .hover\:bg-\[\#454545\] {
     &:hover {
       @media (hover: hover) {
         background-color: #454545;
-      }
-    }
-  }
-  .hover\:bg-\[\#474545\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #474545;
-      }
-    }
-  }
-  .hover\:bg-\[\#707070\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #707070;
-      }
-    }
-  }
-  .hover\:bg-\[\#\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #;
       }
     }
   }
@@ -950,81 +349,27 @@
       }
     }
   }
-  .hover\:bg-\[\#f\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #f;
-      }
+  .focus\:border-transparent {
+    &:focus {
+      border-color: transparent;
     }
   }
-  .hover\:bg-\[\#fa\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fa;
-      }
+  .focus\:shadow-none {
+    &:focus {
+      --tw-shadow: 0 0 #0000;
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
-  .hover\:bg-\[\#fac\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fac;
-      }
+  .focus\:ring-0 {
+    &:focus {
+      --tw-ring-shadow: var(--tw-ring-inset,) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color, currentcolor);
+      box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
     }
   }
-  .hover\:bg-\[\#faca\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #faca;
-      }
-    }
-  }
-  .hover\:bg-\[\#fc\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fc;
-      }
-    }
-  }
-  .hover\:bg-\[\#fca3\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fca3;
-      }
-    }
-  }
-  .hover\:bg-\[\#fca31\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fca31;
-      }
-    }
-  }
-  .hover\:bg-\[\#fca31d\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fca31d;
-      }
-    }
-  }
-  .hover\:bg-\[\#fca\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: #fca;
-      }
-    }
-  }
-  .hover\:bg-\[3\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: 3;
-      }
-    }
-  }
-  .hover\:bg-\[30\] {
-    &:hover {
-      @media (hover: hover) {
-        background-color: 30;
-      }
+  .focus\:outline-none {
+    &:focus {
+      --tw-outline-style: none;
+      outline-style: none;
     }
   }
   .sm\:pt-2 {
@@ -1037,34 +382,9 @@
       padding-top: calc(var(--spacing) * 3);
     }
   }
-  .sm\:pb-2 {
-    @media (width >= 40rem) {
-      padding-bottom: calc(var(--spacing) * 2);
-    }
-  }
-  .sm\:pb-3 {
-    @media (width >= 40rem) {
-      padding-bottom: calc(var(--spacing) * 3);
-    }
-  }
-  .sm\:pb-5 {
-    @media (width >= 40rem) {
-      padding-bottom: calc(var(--spacing) * 5);
-    }
-  }
   .sm\:pb-6 {
     @media (width >= 40rem) {
       padding-bottom: calc(var(--spacing) * 6);
-    }
-  }
-  .lg\:mt-1 {
-    @media (width >= 64rem) {
-      margin-top: calc(var(--spacing) * 1);
-    }
-  }
-  .lg\:mt-6 {
-    @media (width >= 64rem) {
-      margin-top: calc(var(--spacing) * 6);
     }
   }
   .lg\:mt-15 {
@@ -1080,11 +400,6 @@
   .lg\:pb-2 {
     @media (width >= 64rem) {
       padding-bottom: calc(var(--spacing) * 2);
-    }
-  }
-  .lg\:pb-3 {
-    @media (width >= 64rem) {
-      padding-bottom: calc(var(--spacing) * 3);
     }
   }
   .lg\:pb-4 {
@@ -1116,11 +431,90 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-inset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-shadow-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-shadow-alpha {
+  syntax: "<percentage>";
+  inherits: false;
+  initial-value: 100%;
+}
+@property --tw-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-inset-ring-color {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-inset-ring-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
+@property --tw-ring-inset {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-ring-offset-width {
+  syntax: "<length>";
+  inherits: false;
+  initial-value: 0px;
+}
+@property --tw-ring-offset-color {
+  syntax: "*";
+  inherits: false;
+  initial-value: #fff;
+}
+@property --tw-ring-offset-shadow {
+  syntax: "*";
+  inherits: false;
+  initial-value: 0 0 #0000;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
       --tw-border-style: solid;
       --tw-outline-style: solid;
+      --tw-shadow: 0 0 #0000;
+      --tw-shadow-color: initial;
+      --tw-shadow-alpha: 100%;
+      --tw-inset-shadow: 0 0 #0000;
+      --tw-inset-shadow-color: initial;
+      --tw-inset-shadow-alpha: 100%;
+      --tw-ring-color: initial;
+      --tw-ring-shadow: 0 0 #0000;
+      --tw-inset-ring-color: initial;
+      --tw-inset-ring-shadow: 0 0 #0000;
+      --tw-ring-inset: initial;
+      --tw-ring-offset-width: 0px;
+      --tw-ring-offset-color: #fff;
+      --tw-ring-offset-shadow: 0 0 #0000;
     }
   }
 }

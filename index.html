@@ -5,42 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
     <link rel="stylesheet" href="output.css">
+
 </head>
 <body>
     <div class="flex justify-center items-center  lg:mt-15">
     <div class="bg-black lg:rounded-4xl pl-4 pb-3 w-fit">
-      <input type="number" class="bg-black  h-63 w-86  lg:rounded-4xl">
+   
+<input 
+  type="text"
+  value="0"
+  readonly
+  inputmode="none"
+  tabindex="0"
+  aria-label="Calculator display"
+  class="bg-black text-5xl text-white h-63 w-86 lg:rounded-4xl border-0 focus:outline-none focus:ring-0 focus:shadow-none p-4 placeholder:text-gray-400 focus:border-transparent text-right pr-6"
+/>
+
+
   <div class=" flex items-center bg-black w-80">
-    <button class="m-1 hover:cursor-pointer hover:bg-[#454545] bg-[#696969] h-18 w-18 flex items-center justify-center rounded-full pr-1.5"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="m456-320 104-104 104 104 56-56-104-104 104-104-56-56-104 104-104-104-56 56 104 104-104 104 56 56Zm-96 160q-19 0-36-8.5T296-192L80-480l216-288q11-15 28-23.5t36-8.5h440q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H360ZM180-480l180 240h440v-480H360L180-480Zm400 0Z"/></svg></button>
-    <button  class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#454545] bg-[#696969]  text-white h-18 w-18 text-4xl pb-1 rounded-full">AC</button>
+     <button  class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#454545] bg-[#696969]  text-white h-18 w-18 text-3xl pb-1 rounded-full">DEL</button>
+    <!-- <button class="m-1 hover:cursor-pointer hover:bg-[#454545] bg-[#696969] h-18 w-18 flex items-center justify-center rounded-full pr-1.5"><svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="white"><path d="m456-320 104-104 104 104 56-56-104-104 104-104-56-56-104 104-104-104-56 56 104 104-104 104 56 56Zm-96 160q-19 0-36-8.5T296-192L80-480l216-288q11-15 28-23.5t36-8.5h440q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H360ZM180-480l180 240h440v-480H360L180-480Zm400 0Z"/></svg></button> -->
+    <button  class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#454545] bg-[#696969]  text-white h-18 w-18 text-3xl pb-1 rounded-full">AC</button>
      <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#454545] bg-[#696969]  text-white h-18 w-18 text-4xl  rounded-full">%</button>
-      <button class="flex justify-center items-center m-1 hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full pb-2">÷</button>
+      <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full pb-2">÷</button>
   </div>
  
     <div class=" flex items-center bg-black w-80">
         <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">7</button>
          <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">8</button>
         <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">9</button>
-         <button class="flex justify-center items-center m-1 hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full lg:pb-6 sm:pt-3">×</button>
+         <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full lg:pb-6 sm:pt-3">×</button>
     </div>
         <div class=" flex items-center bg-black w-80">
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">4</button>
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">5</button>
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">6</button>
-            <button class="flex justify-center items-center m-1 hover:bg-[#c27808]  bg-[#fca31d] text-white h-18 w-18 text-6xl  rounded-full sm:pb-6 lg:pb-4">-</button>
+            <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#c27808]  bg-[#fca31d] text-white h-18 w-18 text-6xl  rounded-full sm:pb-6 lg:pb-4">-</button>
         </div>
 
         <div class=" flex items-center bg-black w-80">
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">1</button>
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">2</button>
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]   text-white h-18 w-18 text-4xl  rounded-full">3</button>
-            <button class="flex justify-center items-center m-1 hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full pb-2">+</button>
+            <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full pb-2">+</button>
         </div>
         <div class=" flex items-center bg-black w-80">
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]  text-white h-18 w-38 text-4xl pl-2 rounded-full">0</button>
             <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#111108] bg-[#313030]  text-white h-18 w-18 text-4xl  rounded-full">.</button>
-            <button class="flex justify-center items-center m-1 hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full sm:pt-2 lg:pb-2">=</button>
+            <button class="flex justify-center items-center m-1  hover:cursor-pointer hover:bg-[#c27808] bg-[#fca31d] text-white h-18 w-18 text-5xl  rounded-full sm:pt-2 lg:pb-2">=</button>
   </div>
   </div>
 </body>
+<script src="script.js"></script>
 </html>
